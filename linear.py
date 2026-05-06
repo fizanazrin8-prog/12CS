@@ -1,5 +1,5 @@
 import streamlit as st
-import panda as pd
+import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklear.linear_model import LinearRegression
 df=pd.read_csv("student_scores.csv")
