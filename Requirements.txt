@@ -1,3 +1,4 @@
-sickitlearn
-panda
+scikit-learn
+pandas
+steamlit
 
