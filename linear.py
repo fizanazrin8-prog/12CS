@@ -6,7 +6,7 @@ df=pd.read_csv("student_scores.csv")
 X=df.iloc[:, :-1].values
 Y=df.iloc[:, -1].values
 X_train,X_test,Y_train,Y_test=train_test_split(X,Y, test_size=0.2, random_state=42)
-model=LinearRgression()
+model=LinearRegression()
 model.fit(X_train,Y_train)
 st.title("Exam score prediction model")
 st.write("Enter the number of hours you studied for the exam")
