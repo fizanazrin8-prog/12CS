@@ -1,4 +1,4 @@
-import stream as st
+import streamlit as st
 import panda as pd
 from sklearn.model_selection import train_test_split
 from sklear.linear_model import LinearRegression
