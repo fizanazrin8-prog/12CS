@@ -12,7 +12,7 @@ st.title("Exam score prediction model")
 st.write("Enter the number of hours you studied for the exam")
 hours=st.number_input("Hours studied",min_value=0.0, step=0.1)
 if st.button"Predict score"):
-    predicted_score=model.predict([[hours]])[0]
-    st.success(f"predicted score: {predicted_score: .2f}")
+ predicted_score=model.predict([[hours]])[0]
+ st.success(f"predicted score: {predicted_score: .2f}")
 st.write("Sample Training Data")
 st.dataframe(df)
